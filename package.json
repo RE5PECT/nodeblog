@@ -20,6 +20,7 @@
 	"express-session":"*",
 	"express-messages":"*",
   	"multer":"*",
-	"moment":"*"
+	"moment":"*",
+	"truncate":"*"
   }
 }

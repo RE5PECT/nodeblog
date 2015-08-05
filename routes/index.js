@@ -2,6 +2,7 @@ var express = require('express');
 var router = express.Router();
 var mongo = require('mongodb');
 var db = require('monk')('localhost/nodeblog');
+var truncate = require('truncate');
 
 // HomePage Blog Posts 
 router.get('/', function(req, res, next) {
